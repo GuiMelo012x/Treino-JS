@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo DOM</title>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <p id="texto">Texto original</p>
+
+    <button onclick="mostrarMensagem()">Clique para receber uma mensagem</button>
+
+    <button onclick="mudarCorDeFundo()">Mudar Cor de Fundo</button>
+
+    <button onclick="mostrarURL()">Mostrar URL</button>
+    <div id="urlDisplay"></div>
+
+    <button onclick="voltarPagina()">Voltar à página anterior</button>
+
+    <button id="verificarCookies">Verificar Cookies</button>
+
+    <div onmouseover="mudarCor()" onmouseout="restaurarCor()" style="background-color: yellow; width: 100px; height: 50px;">
+        Passe o mouse aqui
+    </div>
+
+    <input type="text" onkeydown="detectarTecla(event)">
+
+</body>
+</html>
